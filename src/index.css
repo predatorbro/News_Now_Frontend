@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+
+:root {
+    --primary: #3B82F6
+}
+
+/* Add this in your global.css or styles.css */
+.seamless-scrollbar::-webkit-scrollbar {
+    height: 4px;
+}
+
+.seamless-scrollbar::-webkit-scrollbar-thumb {
+    background-color: rgba(156, 163, 175, 0.6); /* Soft gray thumb */
+    border-radius: 10px;
+}
+
+.seamless-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+}
